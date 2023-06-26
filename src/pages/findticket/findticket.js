@@ -70,17 +70,10 @@ function FindTicket() {
 
 
     return (
-        <body>
+        <body style={{ backgroundColor: "#F5F6FA" }}>
             <Navbar />
             <div className="change-search" style={{ marginTop: "18px" }}>
                 <Image src={imageShadow} alt="shadow" />
-                <div className="container">
-                    <div className="row content">
-                        <div className="col-sm-1">
-                            <Image src={logo2} alt="logo" className="icon-logo" />
-                        </div>
-                    </div>
-                </div>
             </div>
             <div className="sort container">
                 <div className="row">
