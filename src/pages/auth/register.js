@@ -76,7 +76,7 @@ function Register() {
                                     <div className="mb-3 mt-3">
                                         <input type="password" className="form-control form" id="password" name="password" placeholder="Password" autoComplete="off" value={password} onChange={(e) => setPassword(e.target.value)} />
                                     </div>
-                                    <button type="submit" className="btn siginup mb-4 mt-4 text-center" onClick={btnHandler}>{loading ? "Loading..." : " Sign Up"}</button>
+                                    <button type="submit" className="btn siginup mb-4 mt-4 text-center" style={{ backgroundColor: "#2395FF", color: "white" }} onClick={btnHandler}>{loading ? "Loading..." : " Sign Up"}</button>
                                     <div className="form-check mb-3">
                                         <label className="form-check-label">
                                             <input className="form-check-input remember" type="checkbox" name="remember" onChange={checkboxHandler} /> Accept terms and condition
@@ -87,7 +87,7 @@ function Register() {
                                 <div className="sigin">
                                     <p className="text-center mt-5 mb-2">Already have an account?</p>
                                     <Link href="/auth/login">
-                                        <button type="submit" className="btn signin mb-4 mt-4 text-center">Sign In</button>
+                                        <button type="submit" className="btn signin mb-4 mt-4 text-center" style={{ backgroundColor: "white", color: "#2395FF", borderColor: "#2395FF" }}>Sign In</button>
                                     </Link>
                                 </div>
                             </div>
