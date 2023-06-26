@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+.left-auth {
+    background-color: #2395FF;
+    height: 850px;
+}
+
+.contentRight {
+    margin-top: 80px;
+}
+
+.imageLogo {
+    display: flex;
+    margin-left: 20%;
+}
+
+.imageLogo p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.form-input {
+    margin-left: 20%;
+    margin-top: 60px;
+}
+
+.form-input form .form {
+    width: 350px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: #D2C2FFAD;
+    background-color: #F5F6FA;
+}
+
+.form-input h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+
+.img-auth {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40;
+    height: 400px;
+    width: 400px;
+}
+
+.siginup {
+    width: 350px;
+    height: 50px;
+    top: 500px;
+    background: #2395FF;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.siginup:hover {
+    background: #0076e5;
+    color: #fff;
+}
+
+.remember {
+    border-color: #2395FF;
+}
+
+.sigin {
+    margin-left: -150px;
+}
+
+.border {
+    width: 277px;
+    height: 1px;
+    margin-left: 50px;
+    background: #D8D8D8;
+}
+
+.signin {
+    width: 350px;
+    height: 50px;
+    top: 500px;
+    border-color: #2395FF;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #2395FF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 150px;
+}
+
+.signin:hover {
+    border-color: #0084ff;
+    color: #0084ff;
+}
+
+.didyou {
+    margin-left: -150px;
+}
+
+.tab-reset {
+    margin-left: 120px;
+}

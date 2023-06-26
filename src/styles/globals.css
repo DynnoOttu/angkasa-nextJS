@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+html,
+body {
+    font-family: 'Poppins';
+    background-color: #F5F6FA;
+    scroll-behavior: smooth;
+}
+
+.main-landing {
+    background-color: #fff;
+}
+
+.content {
+    margin-top: -110px;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.main-content-transit {
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+.main-content-transit p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-content-transit .from {
+    font-weight: 200;
+}
+
+.main-content-transit span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.Change-Search {
+    margin-top: 18px;
+}
+
+.Change-Search p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.title-filter {
+    justify-content: space-between;
+}
+
+.title-filter span {
+    font-size: 12px;
+    color: #979797;
+    font-weight: 400;
+}
+
+.sort {
+    margin-top: 32px;
+}
+
+.filter-p {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.reset-p {
+    color: #2395FF;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.menu-filter {
+    background-color: #fff;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 25px 25px 25px 25px;
+}
+
+.title-check {
+    font-size: 16px;
+}
+
+.menu-check {
+    justify-content: space-between;
+}
+
+.filter .border {
+    margin-left: 10px;
+    width: 220px;
+}
+
+.menu-select-ticket {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px 0px 25px 25px;
+    justify-content: flex-start;
+}
+
+.top-select {
+    justify-content: flex-start;
+}
+
+.top-select p {
+    margin-top: 15px;
+    color: #595959;
+    padding-left: 35px;
+}
+
+.select-check {
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.flight {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-check span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B6B6B;
+}
+
+.hours {
+    font-size: 14px;
+    color: #595959;
+}
+
+.detail-hours {
+    text-align: center;
+}
+
+.detail-hours span {
+    font-size: 10px;
+    color:
+        #6B6B6B;
+}
+
+.sub p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2395FF;
+}
+
+.sub p span {
+    font-size: 18px;
+    font-weight: 400;
+    color:
+        #979797;
+}
+
+.button-select .select-ticket {
+    background-color: #2395FF;
+    color: #fff;
+    width: 150px;
+    font-weight: 600;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+}
+
+.flight-found {
+    font-size: 14px;
+}
+
+.sort-by {
+    color: #2395FF;
+    font-weight: 500;
+}
+
+
+/* .sort p {
+    padding-right: 5px;
+} */
+
+.main-landing {
+    background-color: #fff;
+}
+
+.landing-image .right {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.text-find h1 {
+    font-size: 54px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 190px;
+    color: #414141;
+}
+
+.text-find p {
+    color: #979797;
+}
+
+.text-find .image-left {
+    margin-left: -60px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.text-find h1 span {
+    color: #2395FF;
+}
+
+.slide-trending {
+    margin-top: 120px;
+}
+
+.slide-trending .link-slide-trending {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    letter-spacing: 0.3em;
+
+    color: #2395FF;
+    text-decoration: none;
+}
+
+.slide-trending .link-slide-view {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2395FF;
+    text-decoration: none;
+}
+
+.slide-trending .text-link-slide {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+/* Slider */
+
+
+.slide-container {
+    height: 60%;
+    margin-bottom: 90px;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    text-align: center;
+}
+
+.image-content {
+    position: relative;
+    padding: 0px 0;
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+}
+
+
+
+.content-my-booking {
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+.content-my-booking .title-mybooking {
+    color: #2395FF;
+    letter-spacing: 5px;
+}
+
+.my-booking {
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.my-booking .text-my-booking {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.my-booking .text-order-history {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2395FF;
+}
+
+.country-booking p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content-my-booking .code-transit {
+    font-size: 14px;
+    color: #979797;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 20px;
+}
+
+.status-booking {
+    padding-right: 40px;
+    font-weight: 400;
+}
+
+.status .waiting {
+    color: #fff;
+    background-color: #FF7F23;
+}
+
+.status .waiting:hover {
+    color: #fff;
+    background-color: #f36500;
+}
+
+.status .view-details {
+    float: right;
+}
+
+.status {
+    justify-content: space-between;
+}
+
+.status .view-details {
+    color:
+        #2395FF;
+    font-weight: 400;
+}
+
+.status .status-succes {
+    background-color:
+        #4FCF4D !important;
+    border-color: #4FCF4D;
+    color: #fff;
+}
+
+.status .status-succes:hover {
+    background-color:
+        #03c600 !important;
+    border-color: #4FCF4D;
+    color: #fff;
+}
+
+.content-my-booking {
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+.content-my-booking .title-mybooking {
+    color: #2395FF;
+    letter-spacing: 5px;
+}
+
+.my-booking {
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.my-booking .text-my-booking {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.my-booking .text-order-history {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2395FF;
+}
+
+.country-booking p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content-my-booking .code-transit {
+    font-size: 14px;
+    color: #979797;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 20px;
+}
+
+.status-booking {
+    padding-right: 40px;
+    font-weight: 400;
+}
+
+.status .waiting {
+    color: #fff;
+    background-color: #FF7F23;
+}
+
+.status .waiting:hover {
+    color: #fff;
+    background-color: #f36500;
+}
+
+.status .view-details {
+    float: right;
+}
+
+.status {
+    justify-content: space-between;
+}
+
+.status .view-details {
+    color:
+        #2395FF;
+    font-weight: 400;
+}
+
+.status .status-succes {
+    background-color:
+        #4FCF4D !important;
+    border-color: #4FCF4D;
+    color: #fff;
+}
+
+.status .status-succes:hover {
+    background-color:
+        #03c600 !important;
+    border-color: #4FCF4D;
+    color: #fff;
+}

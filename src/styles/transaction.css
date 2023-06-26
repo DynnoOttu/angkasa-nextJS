@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+html,
+body {
+    font-family: 'Poppins';
+}
+
+.container-transaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #2395FF;
+}
+
+.main-transaction {
+    background-color: #fff;
+    width: 941px;
+    height: 600px;
+}
+
+.content-transaction {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.paypal p {
+    color: #6B6B6B;
+}
+
+.btn-try {
+    background: #2395FF;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-try:hover {
+    background: #006ed4;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 55px;
+    color: white;
+    font-weight: 500;
+}
+
+.paypal {
+    justify-content: space-between;
+}
+
+.content-transaction label {
+    color: #6B6B6B;
+}
+
+.code-promo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-booking {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.title-booking {
+    justify-content: space-between;
+}
+
+
+.content-booking-pass {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.text-country {
+    font-size: 24px;
+    font-weight: 500;
+    color: black !important;
+}
+
+.col-code {
+    justify-content: space-between;
+}
+
+.detail-code .title-code {
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.barcode {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+    flex: 1 0 100% !important;
+    margin-top: 50%;
+}
+
+.barcode p {
+    transform: rotate(-90deg);
+    text-align: center;
+}

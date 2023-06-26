@@ -1,0 +1,169 @@
+.foto-profile {
+    border-radius: 50%;
+}
+
+.left-profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.photo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-profile {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #2395FF;
+}
+
+.detail-profile {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.detail-profile .btn {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.name-profile {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.address-profile {
+    font-size: 14px;
+    color: #6B6B6B;
+}
+
+.cards-add {
+    justify-content: space-between;
+}
+
+.cards {
+    font-weight: 500;
+}
+
+.add {
+    font-weight: 500;
+    color:
+        #2395FF;
+}
+
+.number-card {
+    width: 100%;
+    background: #2395FF;
+    box-shadow: 0px 8px 25px rgba(35, 149, 255, 0.49);
+    border-radius: 10px;
+    height: 68px;
+    color: #fff;
+}
+
+.number-card p {
+    padding: 10px 10px 0px 10px;
+}
+
+.number-card .x-card {
+    font-size: 12px;
+    margin-top: -20px;
+    color: #AEFAFF;
+    justify-content: space-between;
+}
+
+.menu-profile {
+    justify-content: space-between;
+}
+
+.menu-profile .text-profile {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2395FF;
+}
+
+.menu-profile .text-riview {
+    font-size: 16px;
+    font-weight: 500;
+    color: black
+}
+
+.menu-profile .text-logout {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff0000;
+}
+
+.right-profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.wrapper {
+    justify-content: space-around;
+}
+
+.profile-blue {
+    color: #2395FF;
+    letter-spacing: 4px;
+}
+
+.profile-black {
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.profile-contact input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.profile-contact label {
+    font-size: 16px;
+    color: #9B96AB;
+}
+
+.text-biodata {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-biodata input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.profile-biodata label {
+    font-size: 16px;
+    color: #9B96AB;
+}
+
+.text-biodata {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.save-profile button {
+    float: right;
+    justify-content: end !important;
+    background: #2395FF;
+    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+    border-radius: 10px;
+    border-color: #2395FF;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+}
