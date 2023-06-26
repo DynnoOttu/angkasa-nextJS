@@ -1,38 +1,198 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+
+  <h3 align="center">Angkasa Web</h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshoots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#related-project">Related Project</a></li>
+    <li><a href="#our-team">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+**Angkasa Web** Webiste to help users to book flight tickets online more easily.
+### Built With
+
+This app was built with some technologies below:
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://www.javascript.com/)
+- [React](https://nextjs.org/)
+- [Axios](https://axios-http.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Before going to the installation stage there are some software that must be installed first.
+
+- [NodeJs](https://nodejs.org/en/download/)
+- [NextJs](https://nextjs.org/docs)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+If you want to run this project locally, I recommend you to configure the [back-end](https://github.com/DynnoOttu/Angkasa_Backend) first before configuring this repo front-end.
+
+- Clone the repo
+
+```
+git clone https: https://github.com/DynnoOttu/angkasa-nextJS
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go To Folder Repo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd angkasa-nextJS
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Install Module
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- <a href="#setup-env">Setup .env</a>
+- Type ` npm run dev` To Start Website
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+### Setup .env
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create .env file in your root project folder.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+REACT_APP_BASE_URL= https://wild-jade-kingfisher-yoke.cyclic.app
+```
 
-## Deploy on Vercel
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshoots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center" display=flex>
+   
+<table>
+    <tr>
+    <td>Login Page</td>
+    <td>Register Page</td>
+  </tr>
+  <tr>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/3_mixmzq.png" alt="Login Page" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/2_oyixz7.png" width=100%/></td>
+  </tr>
+  
+
+  <tr>
+       <tr>
+    <td>Landing Page</td>
+    <td>Find Ticket</td>
+  </tr>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805676/screanshoot%20angkasa/1_qx5ixi.png" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/4_hcfrhc.png" alt="Search" width=100%/></td>
+  </tr>
+
+  <tr>
+   <tr>
+    <td>My Booking</td>
+    <td>Payment</td>
+  </tr>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/5_jgx3qw.png" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805672/screanshoot%20angkasa/9_epcvwr.png" alt="Add Recipe" width=100%/></td>
+  </tr>
+
+
+  <tr>
+     <tr>
+    <td>Ticket</td>
+    <td>Profile</td>
+  </tr>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/7_l8omxe.png" width=100%></td>
+      <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805673/screanshoot%20angkasa/8_ycklm1.png" width=100%></td>
+  </tr>
+
+</table>
+      
+</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Project
+
+:rocket: [`Backend Recipes`](https://github.com/DynnoOttu/Angkasa_Backend)
+
+:rocket: [`Frontend Recipes Web`](https://github.com/DynnoOttu/angkasa-nextJS)
+
+:rocket: [`API`]([https://real-teal-dragonfly-gear.cyclic.app](https://wild-jade-kingfisher-yoke.cyclic.app))
+
+:rocket: [`Demo Recipenation`](https://angkasa-next-js.vercel.app)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Developer
+
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/DynnoOttu">
+          <img width="100" src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1685061849/recipes/kbgsfitfo3x2aikonhng.jpg" alt="Dynno"><br/>
+          <sub><b>Dynno Yohanis Ottu</b></sub> <br/>
+          <sub>Back End Web Developer | Front End Web Developer | Mobile Devoloper</sub>
+        </a>
+      </td>
+  </table>
+</center>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
