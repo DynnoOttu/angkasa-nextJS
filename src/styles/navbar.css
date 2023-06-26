@@ -47,22 +47,6 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.btn-signup {
-    width: 150px;
-    height: 50px;
-
-    background: #2395FF;
-    box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
-    border-radius: 10px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-}
-
 .btn-signup:hover {
     background: #0385ff;
     color: #fff;

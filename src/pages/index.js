@@ -60,7 +60,6 @@ export default function Home() {
             <Link href="/auth/register">
               <button className="btn btn-signup" type="submit">Sign Up</button>
             </Link>
-            <button className="btn btn-signup" type="submit">Sign Up</button>
           </div>
         </nav>
 
