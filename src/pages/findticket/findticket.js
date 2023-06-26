@@ -75,7 +75,7 @@ function FindTicket() {
             <div className="change-search" style={{ marginTop: "18px" }}>
                 <Image src={imageShadow} alt="shadow" />
             </div>
-            <div className="sort">
+            <div className="sort" style={{ padding: "20px" }}>
                 <div className="row">
                     <div className="col-sm-3 filter">
                         <div className="title-filter d-flex">

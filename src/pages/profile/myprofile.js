@@ -73,7 +73,7 @@ function MyProfile() {
         router.push("/");
     };
     return (
-        <>
+        <body style={{ backgroundColor: "#F5F6FA" }}>
             <Navbar />
             <div className="main-profile container mt-5 mb-5">
                 <>
@@ -164,7 +164,7 @@ function MyProfile() {
                 </>
             </div>
             <Footer />
-        </>
+        </body>
     )
 }
 

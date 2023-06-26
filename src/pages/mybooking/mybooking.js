@@ -77,7 +77,7 @@ function MyBooking() {
 
 
     return (
-        <>
+        <body style={{ backgroundColor: "#F5F6FA" }}>
             <Navbar />
             <div className="main-profile container mt-5 mb-5">
                 <div className="row wrapper">
@@ -167,7 +167,7 @@ function MyBooking() {
                 </div>
             </div>
             <Footer />
-        </>
+        </body>
     )
 }
 
