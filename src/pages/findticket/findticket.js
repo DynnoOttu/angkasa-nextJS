@@ -72,7 +72,7 @@ function FindTicket() {
     return (
         <>
             <Navbar />
-            <div className="change-search">
+            <div className="change-search" style={{ marginTop: "18px" }}>
                 <Image src={imageShadow} alt="shadow" />
                 <div className="container">
                     <div className="row content">

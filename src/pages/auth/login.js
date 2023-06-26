@@ -78,8 +78,7 @@ function Login() {
                                             onChange={(e) => setPassword(e.target.value)} type="password" className="form-control form" id="fullname" placeholder="Password" autoComplete="off" required />
                                     </div>
                                     <button
-                                        onClick={notify} disabled={!email || !password || loading} type="submit" className="btn siginup mb-4 mt-4 text-center">{loading ? "Loading..." : " Sign In"}
-                                    </button>
+                                        onClick={notify} type="submit" className="btn siginup mb-4 mt-4 text-center" style={{ backgroundColor: "#2395FF", color: "white" }}>{loading ? "Loading..." : "Sign In"}</button>
                                 </form>
                                 <p className="text-center mt-5 mb-2 didyou">Did you forgot your password?</p>
                                 <Link href="./forgotpassword" className="text-center tab-reset">Tap here for reset</Link>
