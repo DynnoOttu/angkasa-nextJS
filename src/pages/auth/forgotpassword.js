@@ -22,7 +22,7 @@ function ForgotPassword() {
                                     <div className="mb-3">
                                         <input type="email" className="form-control form" id="emaill" name="emaill" placeholder="Email" autoComplete="none" />
                                     </div>
-                                    <button type="submit" className="btn siginup mb-4 mt-4 text-center">Send</button>
+                                    <button type="submit" className="btn siginup mb-4 mt-4 text-center" style={{ backgroundColor: "#2395FF", color: "white" }}>Send</button>
                                 </form>
                                 <p className="text-center mt-5 mb-2 didyou">You’ll get message soon on your email</p>
                             </div>

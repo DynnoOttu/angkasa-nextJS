@@ -26,7 +26,7 @@ function ForgotPassword() {
                                     <div className="mb-3">
                                         <input type="text" className="form-control form" id="otp" name="otp" placeholder="Otp" autoComplete="none" />
                                     </div>
-                                    <Link href="./login" type="submit" className="btn siginup mb-4 mt-4 text-center">Verif</Link>
+                                    <Link href="./login" type="submit" className="btn siginup mb-4 mt-4 text-center" style={{ backgroundColor: "#2395FF", color: "white" }}>Verif</Link>
                                 </form>
                             </div>
                         </div>
