@@ -47,7 +47,7 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.daftar {
+.btn-signup {
     width: 150px;
     height: 50px;
 
@@ -63,7 +63,7 @@ body {
     color: #fff;
 }
 
-.daftar:hover {
+.btn-signup:hover {
     background: #0385ff;
     color: #fff;
 }
