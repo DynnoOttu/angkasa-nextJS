@@ -58,7 +58,7 @@ export default function Home() {
               </ul>
             </div>
             <Link href="/auth/register">
-              <button className="btn btn-info" type="submit">Sign Up</button>
+              <button className="btn" style={{ backgroundColor: "#2395FF" }} type="submit">Sign Up</button>
             </Link>
           </div>
         </nav>
