@@ -58,7 +58,7 @@ export default function Home() {
               </ul>
             </div>
             <Link href="/auth/register">
-              <button className="btn btn-signup" type="submit">Sign Up</button>
+              <button className="btn daftar" type="submit">Sign Up</button>
             </Link>
           </div>
         </nav>
