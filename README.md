@@ -55,6 +55,9 @@ This app was built with some technologies below:
 <!-- GETTING STARTED -->
 
 ## Getting Started
+- Email: dynno@zslsz.com
+- Password: 12345
+
 
 ### Prerequisites
 
