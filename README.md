@@ -131,7 +131,7 @@ REACT_APP_BASE_URL= https://wild-jade-kingfisher-yoke.cyclic.app
     <td>My Booking</td>
     <td>Payment</td>
   </tr>
-    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/5_jgx3qw.png" width=100%></td>
+    <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1688444911/angkasa/screencapture-angkasa-next-js-vercel-app-mybooking-mybooking-2023-07-04-12_26_34_cpv1vc.png" width=100%></td>
     <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805672/screanshoot%20angkasa/9_epcvwr.png" alt="Add Recipe" width=100%/></td>
   </tr>
 
@@ -142,7 +142,7 @@ REACT_APP_BASE_URL= https://wild-jade-kingfisher-yoke.cyclic.app
     <td>Profile</td>
   </tr>
     <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805671/screanshoot%20angkasa/7_l8omxe.png" width=100%></td>
-      <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1687805673/screanshoot%20angkasa/8_ycklm1.png" width=100%></td>
+      <td><image src="https://res.cloudinary.com/dzs9aijqab/image/upload/v1688444910/angkasa/screencapture-angkasa-next-js-vercel-app-profile-myprofile-2023-07-04-12_26_46_xnohqu.png" width=100%></td>
   </tr>
 
 </table>
